@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="Testing2TestNG(failed)">
+    <classes>
+      <class name="TestNGSample1.VideoSample1">
+        <methods>
+          <include name="verifyApp"/>
+        </methods>
+      </class> <!-- TestNGSample1.VideoSample1 -->
+    </classes>
+  </test> <!-- Testing2TestNG(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
